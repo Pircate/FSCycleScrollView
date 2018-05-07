@@ -1,5 +1,5 @@
 PODS:
-  - FSCycleScrollView (0.1.0):
+  - FSCycleScrollView (0.1.1):
     - FSPagerView
     - Kingfisher
   - FSPagerView (0.7.1)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSCycleScrollView: c27c942bafdaf567d90ab38c620911460400c448
+  FSCycleScrollView: 8ac6298109671f5c945d01c18ac68ff7168f4697
   FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
   Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
 

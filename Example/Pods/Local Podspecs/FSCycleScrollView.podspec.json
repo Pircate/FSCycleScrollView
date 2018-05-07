@@ -1,6 +1,6 @@
 {
   "name": "FSCycleScrollView",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Swift banner view",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Ginxx/FSCycleScrollView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Ginxx/FSCycleScrollView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,5 +26,6 @@
     "Kingfisher": [
 
     ]
-  }
+  },
+  "swift_version": "4.0"
 }

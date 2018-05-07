@@ -63,7 +63,21 @@ open class FSCycleScrollView: UIView {
     
     open var selectItemAtIndex: (Int) -> Void = { _ in }
     
+    /// Title label style
+    open var titleLabelTextColor: UIColor = UIColor.white
+    
+    open var titleLabelFont: UIFont = UIFont.preferredFont(forTextStyle: .body)
+    
+    open var titleLabelBackgroundColor: UIColor = UIColor.black.withAlphaComponent(0.6)
+    
     /// Page Control
+    
+    open var hidesPageControl: Bool = false {
+        didSet {
+            pageControl.isHidden = hidesPageControl
+        }
+    }
+    
     open var hidesPageControlForSinglePage: Bool = false {
         didSet {
             pageControl.hidesForSinglePage = hidesPageControlForSinglePage
@@ -133,13 +147,21 @@ extension FSCycleScrollView: FSPagerViewDataSource {
             }
         case .onlyTitle(let titles):
             cell.textLabel?.text = titles[index]
+            configureTitleLabelStyle(cell.textLabel)
         case .both(let items):
             if let url = URL(string: items[index].image) {
                 cell.imageView?.kf.setImage(with: url, placeholder: placeholder)
             }
             cell.textLabel?.text = items[index].title
+            configureTitleLabelStyle(cell.textLabel)
         }
         return cell
+    }
+    
+    private func configureTitleLabelStyle(_ titleLabel: UILabel?) {
+        titleLabel?.textColor = titleLabelTextColor
+        titleLabel?.font = titleLabelFont
+        titleLabel?.backgroundColor = titleLabelBackgroundColor
     }
 }
 

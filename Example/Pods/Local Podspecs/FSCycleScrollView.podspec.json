@@ -1,7 +1,7 @@
 {
   "name": "FSCycleScrollView",
   "version": "0.1.0",
-  "summary": "A short description of FSCycleScrollView.",
+  "summary": "Swift banner view",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Ginxx/FSCycleScrollView",
   "license": {

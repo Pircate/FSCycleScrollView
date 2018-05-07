@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSCycleScrollView: b4180ff3f2ca49ad7f7441b6b64dbdee2470bcd5
+  FSCycleScrollView: c27c942bafdaf567d90ab38c620911460400c448
   FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
   Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
 

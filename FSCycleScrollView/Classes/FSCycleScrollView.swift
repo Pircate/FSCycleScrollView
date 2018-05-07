@@ -105,18 +105,18 @@ open class FSCycleScrollView: UIView {
         return pageControl
     }()
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         addSubview(pagerView)
         addSubview(pageControl)
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override open func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         
         pagerView.frame = bounds

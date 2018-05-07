@@ -40,4 +40,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'FSPagerView'
   s.dependency 'Kingfisher'
+  
+  s.swift_version = '4.0'
 end

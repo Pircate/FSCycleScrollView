@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2196CC6D26F1288F7E1AA26C /* Pods-FSCycleScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCycleScrollView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSCycleScrollView_Tests/Pods-FSCycleScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2849560CFE9306E09C52D45A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2849560CFE9306E09C52D45A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		335F0DA340F761CE04521C5D /* Pods-FSCycleScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCycleScrollView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSCycleScrollView_Example/Pods-FSCycleScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FSCycleScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSCycleScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		74474018BCF1D3C460F9F210 /* Pods_FSCycleScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSCycleScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76239EFE80297557D336DB9E /* Pods-FSCycleScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCycleScrollView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSCycleScrollView_Tests/Pods-FSCycleScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8BB17DCD80603CE7DA51C8D9 /* Pods-FSCycleScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCycleScrollView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSCycleScrollView_Example/Pods-FSCycleScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		90E60808DFA8CD6B9438B96B /* FSCycleScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FSCycleScrollView.podspec; path = ../FSCycleScrollView.podspec; sourceTree = "<group>"; };
+		90E60808DFA8CD6B9438B96B /* FSCycleScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FSCycleScrollView.podspec; path = ../FSCycleScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A26438EA4E4F793622BBCB77 /* Pods_FSCycleScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSCycleScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E43257BE6723325CB2AA95D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E43257BE6723325CB2AA95D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,10 +305,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FSCycleScrollView_Example/Pods-FSCycleScrollView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FSCycleScrollView/FSCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

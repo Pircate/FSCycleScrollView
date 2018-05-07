@@ -7,8 +7,18 @@
 //
 
 import UIKit
+import FSCycleScrollView
 
 class ViewController: UIViewController {
+    
+    private lazy var cycleScrollView: FSCycleScrollView = {
+        let cycleScrollView = FSCycleScrollView()
+        cycleScrollView.dataSourceType = .both(items: [])
+        cycleScrollView.selectItemAtIndex = { index in
+            
+        }
+        return cycleScrollView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()

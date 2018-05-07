@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'FSCycleScrollView_Example' do
   pod 'FSCycleScrollView', :path => '../'
+  pod 'FSPagerView'
+  pod 'Kingfisher'
 
   target 'FSCycleScrollView_Tests' do
     inherit! :search_paths

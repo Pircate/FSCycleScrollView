@@ -1,0 +1,29 @@
+PODS:
+  - FSCycleScrollView (0.1.0):
+    - FSPagerView
+    - Kingfisher
+  - FSPagerView (0.7.1)
+  - Kingfisher (4.7.0)
+
+DEPENDENCIES:
+  - FSCycleScrollView (from `../`)
+  - FSPagerView
+  - Kingfisher
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FSPagerView
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  FSCycleScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSCycleScrollView: b4180ff3f2ca49ad7f7441b6b64dbdee2470bcd5
+  FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+
+PODFILE CHECKSUM: ccc7cba37fd23b1dba0a9254abbe9278420f3161
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,1256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0744ABDC51E9F9A392E9611E73AF4491 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D31F0AFFA860E03CC483BCF729E30 /* Resource.swift */; };
+		0F317DAF555DE8B9D39F2D15B9742392 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352024702BF9D178C6253161975E6A5D /* ImageProcessor.swift */; };
+		0FF3911F1E5461B50C9B70CF8CCF9380 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46080F73DFC2EFE2050682DFC3E138F0 /* FormatIndicatedCacheSerializer.swift */; };
+		100E2A8DF9D538C0CB26AD28D90F6CC1 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2748394BEDFBFE1E287C8DD60D4957C /* Kingfisher-dummy.m */; };
+		1AE87B4B3E3F696B5305536171726D3A /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E68C818A3FAE8B8AF5004E366800BF /* CacheSerializer.swift */; };
+		2060C6485EC196BA7B130F4EBE659E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EF677BB428F3AE71720E9245D6559B /* Foundation.framework */; };
+		2ABC94E99F1D7D7033AC2D2DBEFC3FF7 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB507EC1BFE36CFDF457005E864CB9 /* ImageModifier.swift */; };
+		32F1A9BE95DC277CD0A654FB25F70E59 /* Pods-FSCycleScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE41B9CBF9F077C35A8999AFCEA4E936 /* Pods-FSCycleScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B325A4718316AD0B022CC4D8B893BF /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A2DD98C4794BEDF6459775B7896C /* Filter.swift */; };
+		35CFD388D17931611160C653A43A61E9 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1E2B5D33F86AE4D571A90C6D793E9C /* FSPageViewLayout.swift */; };
+		36BDEEE37A5D93FAC7BF809DAEDBE1D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A65BBB0C79F2FE63AA372428DCF3B2 /* UIKit.framework */; };
+		3AB3A56E1A5C9DA80A41638EF3ACA76E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF4C2008A367BA8362E332EC6F8B8C /* Image.swift */; };
+		3CB978035656005190E5E8B976DC8150 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BCF54BEF9C84B6F2202F4DDB807FE1 /* UIButton+Kingfisher.swift */; };
+		533FCBC4C3F37C338142602C702BB3CF /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C311705B4657311D72B6DE8FC556D3 /* FSPagerCollectionView.swift */; };
+		54BC5505A680B80CABB9E14E429AB5DB /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F28C6F093960C5D61080B8CF8CC8CC /* Box.swift */; };
+		58BC53EFA5972E8B9D8E59673358E85B /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC7E83F7A3B60BD2D3C33CBB864059 /* ImageTransition.swift */; };
+		5AE5CBFA93ABAAB8E95A8C82E27F0E51 /* Pods-FSCycleScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C50F50F42BDF188AE1B54559A829F181 /* Pods-FSCycleScrollView_Example-dummy.m */; };
+		5C8256903F8F3043D3775487BF2B5E7C /* FSCycleScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D0E7BA70E8F15B85EB93BD0EFD3A10 /* FSCycleScrollView-dummy.m */; };
+		602A3FCBD1D10145789682C869E7C02E /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F66549B9E00A7ADDB959FC9BBAF66 /* FSPagerView.swift */; };
+		62AC1E327C4ADB69A6F92429B908CF5C /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4AFA08CC1C7027C9ABE41B0F25C98 /* FSPageViewTransformer.swift */; };
+		644AE9CB5A3581205CE51627D8AD9248 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108AE95E757869026E5DEBB6EC367963 /* KingfisherOptionsInfo.swift */; };
+		6E6227C0F8C8525ABFE1E1797A3B4FFE /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = E465923F2F1DCF9B45E771C669651781 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A53CB1657BE8BB3CC99DB2CC06494F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9051B28B1057C5B49AE08CF659EE0C07 /* CFNetwork.framework */; };
+		8E98FE623AB706EBD676DD9B360EA53B /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BE89491B742AEF4CDDCB7070C22AB3 /* FSPagerViewCell.swift */; };
+		998B8F77CD74BC10A2DD71EABFB20E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EF677BB428F3AE71720E9245D6559B /* Foundation.framework */; };
+		A29D25DC316D435AA68B41197DACA784 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF9BA55AEF0BDC89445B13461802304 /* RequestModifier.swift */; };
+		A6A60A4EED8E54C7F7CF50CA02EF9C25 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F70A4EF957D1899CC752B8E36F72C02F /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFA409438764C96F162ADEA5017D7AF /* FSPagerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AFD036B1BEE01B0B423B0D2A29C752 /* FSPagerView.framework */; };
+		AD77D166FBCAC83A8217166D8AE7C4C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EF677BB428F3AE71720E9245D6559B /* Foundation.framework */; };
+		BBF6AF26B59077A830559CB620C3906D /* Pods-FSCycleScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6407CDA4CC618E2E4FD46E785E4FE4ED /* Pods-FSCycleScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD66B45146F8BB0B57C1555B2C7906DE /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72B36E5CAA19801D4D421868C36F72 /* ThreadHelper.swift */; };
+		BDC15FE323F728D5ACCBB6801CAABE84 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260C49B304225B1AB7BFE681098486B3 /* ImageCache.swift */; };
+		C1FC2A201D702DB2FBDA1CFEF7FE0C9A /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FD78981668C6D43125E16D0D363CD /* Indicator.swift */; };
+		C3ED0EAE08E13DD3BE2C29D4EEF01798 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C868ECADAABC87358FBB38CA15ED52B0 /* Placeholder.swift */; };
+		C9AB3D39C5320C4D99019ED5E5C4828B /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67029479D92355D177BE90CCAFA0F50C /* FSPagerView-dummy.m */; };
+		C9DA3978439EB03E0CEDC26E3112B16F /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF351C6E77BE831BC7AFE8394A736FA /* String+MD5.swift */; };
+		CA4E71CBA48894D5CC7709FF45CA6655 /* FSCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC851AD47887939921340128BD832C52 /* FSCycleScrollView.swift */; };
+		D1D51B32B727C7883FB45FAFA794FAFF /* FSCycleScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6E0BA68AF945F45B6B714E8099F220 /* FSCycleScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3025B492A6B2859187BFF91DB19F10D /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3413894B0722FC8E62CA84E930F170E2 /* KingfisherManager.swift */; };
+		D75C9F55A04D0E0FF095A4200FF692C8 /* Pods-FSCycleScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA28023B3030B85FAA55B6921637F634 /* Pods-FSCycleScrollView_Tests-dummy.m */; };
+		D7D352CDE0C310CF16163E4F3EC6795D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EF677BB428F3AE71720E9245D6559B /* Foundation.framework */; };
+		DF1DF73F37F413C4AF4BE7D7DE27C86B /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB90DB1216651EF33B58D4014B08D7DA /* FSPagerViewLayoutAttributes.swift */; };
+		E2BEB56C3D2F65DF635D6D8C94145A90 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F658CA45E3602BD7DF52EC3189B8F /* ImageDownloader.swift */; };
+		EC2991A5DA80F037E6EFF30C763684DA /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A65388A486DB9E2451931A6295094F /* AnimatedImageView.swift */; };
+		F29A4CC708577977BA20174C6530DE1E /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A3F1FBB3733202E4C286ADD91C20CA /* ImageView+Kingfisher.swift */; };
+		F3CFA8EDEC50D656F65490580F0206B9 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0CFEA719B84BDEB8DBF3E189413DD8 /* Kingfisher.framework */; };
+		F71058E36734F510CA820287F8D44149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EF677BB428F3AE71720E9245D6559B /* Foundation.framework */; };
+		F9E100C9935A3C15E1C76AA349C0E58E /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8CB1321D27ABEFFE080DA09E503A35 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F2CADC677C6386BFDFA26A732A2BA3 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A8933F73E42F2652E76308910B35CB /* ImagePrefetcher.swift */; };
+		FB67D381405FB633D38E5058BFCDA9D2 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC408FB8C62D55B64D862788627D0B7A /* FSPageControl.swift */; };
+		FBE458B52745A1400E223F03205E43BF /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B956C9427FFCACA4C62054BE5AE0D /* Kingfisher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F62D72018AAD4348EDCBC0C40751C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A39ADE2095194480DB1AA0305E9BAB;
+			remoteInfo = FSPagerView;
+		};
+		33C003A88E0C8F0B45BDD047103B7F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE571C610F4E202F731CA5718E57133;
+			remoteInfo = Kingfisher;
+		};
+		3DC4514631E7961213FB7AED0A45E9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F81FD81737E05BE15EFE3514290F63A;
+			remoteInfo = FSCycleScrollView;
+		};
+		DA77CB9BBB868DF6F5BCC4176414B7B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A39ADE2095194480DB1AA0305E9BAB;
+			remoteInfo = FSPagerView;
+		};
+		DC4D2E00E41B05B19B4AF14FC1B5BEF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE571C610F4E202F731CA5718E57133;
+			remoteInfo = Kingfisher;
+		};
+		F84332821A1B38AB39C6020F93AF41AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265ED0E1F7768BF4E80765EE4CF7E12D;
+			remoteInfo = "Pods-FSCycleScrollView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042615A6659E8B02F4521737C8B4D653 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSPagerView.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		108AE95E757869026E5DEBB6EC367963 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		12E80C79DC03FF814FEA0329098BB6CB /* FSCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCycleScrollView.framework; path = FSCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BCF54BEF9C84B6F2202F4DDB807FE1 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		1B0CFEA719B84BDEB8DBF3E189413DD8 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8F658CA45E3602BD7DF52EC3189B8F /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		1BF12E1DCF4E4C4EDBB1ABAB630CE75D /* Pods_FSCycleScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FSCycleScrollView_Tests.framework; path = "Pods-FSCycleScrollView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8558B6D6F05539134D1304E76C9CEB /* Pods-FSCycleScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSCycleScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		204AC156AA9AC1E276D329A1066FE9EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20AFD036B1BEE01B0B423B0D2A29C752 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22628C924E689593FD590D6A5FD8EC86 /* Pods-FSCycleScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSCycleScrollView_Example-resources.sh"; sourceTree = "<group>"; };
+		241F66549B9E00A7ADDB959FC9BBAF66 /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
+		260C49B304225B1AB7BFE681098486B3 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		3413894B0722FC8E62CA84E930F170E2 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		34D0E7BA70E8F15B85EB93BD0EFD3A10 /* FSCycleScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCycleScrollView-dummy.m"; sourceTree = "<group>"; };
+		352024702BF9D178C6253161975E6A5D /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		38D753B0BB6EB4C7950F7E58D8B71FDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		39A65BBB0C79F2FE63AA372428DCF3B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3CF351C6E77BE831BC7AFE8394A736FA /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		41C311705B4657311D72B6DE8FC556D3 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		41F28C6F093960C5D61080B8CF8CC8CC /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		45F3CF2F94D8CABC84B169766558C1E7 /* Pods-FSCycleScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSCycleScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		46080F73DFC2EFE2050682DFC3E138F0 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		46E68C818A3FAE8B8AF5004E366800BF /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		4ACC7E83F7A3B60BD2D3C33CBB864059 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		4B87D8AD6F1FF3A52F2B426FD17E5D0F /* Pods-FSCycleScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSCycleScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		503E520435B69C5B72FA7EE957B86F95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		56AA430B8780416E9E85596B4037D5E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572E300C632B3AFDCC930498D8F8429C /* Pods-FSCycleScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSCycleScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B96531ED139FE228FA43B20AE6DB351 /* FSPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.xcconfig; sourceTree = "<group>"; };
+		5BEB507EC1BFE36CFDF457005E864CB9 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/ImageModifier.swift; sourceTree = "<group>"; };
+		6407CDA4CC618E2E4FD46E785E4FE4ED /* Pods-FSCycleScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSCycleScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
+		67029479D92355D177BE90CCAFA0F50C /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
+		6B708F5FBF433A87A8EFC031A43DAC52 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702C79A3D7D69BD81C015A7733C4FFB3 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
+		70E07B9A857D8F4F0BEAE2A871FB5DAE /* Pods-FSCycleScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSCycleScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		712FAFA15FC3AAFD25CB094C203565B3 /* Pods-FSCycleScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSCycleScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		724FD78981668C6D43125E16D0D363CD /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		74080E20F13931CAA7B7677DE0232377 /* Pods-FSCycleScrollView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSCycleScrollView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		80D433A5ED453113EC271E6712EC8369 /* Pods-FSCycleScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSCycleScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		81A3F1FBB3733202E4C286ADD91C20CA /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		8AA812398D97C494835D72DF8B5F71B5 /* Pods-FSCycleScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSCycleScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AF9BA55AEF0BDC89445B13461802304 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		8DE006B0389889B8E5A6C8C77557F45F /* Pods-FSCycleScrollView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSCycleScrollView_Tests-resources.sh"; sourceTree = "<group>"; };
+		9051B28B1057C5B49AE08CF659EE0C07 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953B956C9427FFCACA4C62054BE5AE0D /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		9F8CB1321D27ABEFFE080DA09E503A35 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		A618332A606225B5E85E415A2BD1C9BD /* FSCycleScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCycleScrollView.xcconfig; sourceTree = "<group>"; };
+		A64B8F5A4B6233575145AC8525D18061 /* FSCycleScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCycleScrollView-prefix.pch"; sourceTree = "<group>"; };
+		A9FA130C658974D241BF61B375DA6BE4 /* Pods_FSCycleScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FSCycleScrollView_Example.framework; path = "Pods-FSCycleScrollView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA27BE73F24F901758E2A0CCE278B001 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		AC0376863CE9172F5E09C9F1E593CE78 /* FSCycleScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FSCycleScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD1E2B5D33F86AE4D571A90C6D793E9C /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
+		ADDF4C2008A367BA8362E332EC6F8B8C /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		B2748394BEDFBFE1E287C8DD60D4957C /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		B3A8933F73E42F2652E76308910B35CB /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		B5EF677BB428F3AE71720E9245D6559B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA0F335ADA193E8992B3C1FE0FBE116E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEF980CB7C8A318399084C730484A26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC851AD47887939921340128BD832C52 /* FSCycleScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSCycleScrollView.swift; path = FSCycleScrollView/Classes/FSCycleScrollView.swift; sourceTree = "<group>"; };
+		C1C6BE7558100865AE7A713BE33B70E0 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		C3D4AFA08CC1C7027C9ABE41B0F25C98 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		C50F50F42BDF188AE1B54559A829F181 /* Pods-FSCycleScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSCycleScrollView_Example-dummy.m"; sourceTree = "<group>"; };
+		C7BE89491B742AEF4CDDCB7070C22AB3 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
+		C868ECADAABC87358FBB38CA15ED52B0 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
+		CB63944D4A5D0A7A1CDA82C9C93CB515 /* Pods-FSCycleScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSCycleScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCCD8DDD07081308331ACAD1BDA72402 /* Pods-FSCycleScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSCycleScrollView_Example.modulemap"; sourceTree = "<group>"; };
+		CD681FC7D4BBF46190920398D101D0AB /* FSCycleScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCycleScrollView.modulemap; sourceTree = "<group>"; };
+		D29FC25261785C4694C46437D0B37A0E /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		D4A65388A486DB9E2451931A6295094F /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		D97A814A865F302FC5AFD3631F1E4E99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA28023B3030B85FAA55B6921637F634 /* Pods-FSCycleScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSCycleScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
+		DC408FB8C62D55B64D862788627D0B7A /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
+		DC47540865B87AC3A000913D011A3B9E /* Pods-FSCycleScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSCycleScrollView_Tests.modulemap"; sourceTree = "<group>"; };
+		DF8D31F0AFFA860E03CC483BCF729E30 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		E465923F2F1DCF9B45E771C669651781 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		EE41B9CBF9F077C35A8999AFCEA4E936 /* Pods-FSCycleScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSCycleScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EE6E0BA68AF945F45B6B714E8099F220 /* FSCycleScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCycleScrollView-umbrella.h"; sourceTree = "<group>"; };
+		F70A4EF957D1899CC752B8E36F72C02F /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
+		F83A74BEDA6C168ACAAC093810E8F643 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSPagerView.modulemap; sourceTree = "<group>"; };
+		FA47A2DD98C4794BEDF6459775B7896C /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		FA72B36E5CAA19801D4D421868C36F72 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		FB90DB1216651EF33B58D4014B08D7DA /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21CF0C3DAB34013F1E27AEB8A5A416C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD77D166FBCAC83A8217166D8AE7C4C0 /* Foundation.framework in Frameworks */,
+				ABFA409438764C96F162ADEA5017D7AF /* FSPagerView.framework in Frameworks */,
+				F3CFA8EDEC50D656F65490580F0206B9 /* Kingfisher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819297328984C09F6E074A0A8DAD57B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A53CB1657BE8BB3CC99DB2CC06494F /* CFNetwork.framework in Frameworks */,
+				D7D352CDE0C310CF16163E4F3EC6795D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DABFE02633A5A0E9C107A5A2F606C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2060C6485EC196BA7B130F4EBE659E7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A695AA7F8AA5C264705F0EA31926795E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998B8F77CD74BC10A2DD71EABFB20E05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82D33785A861797275B7073464271B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71058E36734F510CA820287F8D44149 /* Foundation.framework in Frameworks */,
+				36BDEEE37A5D93FAC7BF809DAEDBE1D5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5368F0D816051EB3D83DF8294B066A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AC0376863CE9172F5E09C9F1E593CE78 /* FSCycleScrollView.podspec */,
+				38D753B0BB6EB4C7950F7E58D8B71FDF /* LICENSE */,
+				503E520435B69C5B72FA7EE957B86F95 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0C66B99A0DA8FEF396D5274B19A6E946 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				D4A65388A486DB9E2451931A6295094F /* AnimatedImageView.swift */,
+				41F28C6F093960C5D61080B8CF8CC8CC /* Box.swift */,
+				46E68C818A3FAE8B8AF5004E366800BF /* CacheSerializer.swift */,
+				FA47A2DD98C4794BEDF6459775B7896C /* Filter.swift */,
+				46080F73DFC2EFE2050682DFC3E138F0 /* FormatIndicatedCacheSerializer.swift */,
+				ADDF4C2008A367BA8362E332EC6F8B8C /* Image.swift */,
+				260C49B304225B1AB7BFE681098486B3 /* ImageCache.swift */,
+				1B8F658CA45E3602BD7DF52EC3189B8F /* ImageDownloader.swift */,
+				5BEB507EC1BFE36CFDF457005E864CB9 /* ImageModifier.swift */,
+				B3A8933F73E42F2652E76308910B35CB /* ImagePrefetcher.swift */,
+				352024702BF9D178C6253161975E6A5D /* ImageProcessor.swift */,
+				4ACC7E83F7A3B60BD2D3C33CBB864059 /* ImageTransition.swift */,
+				81A3F1FBB3733202E4C286ADD91C20CA /* ImageView+Kingfisher.swift */,
+				724FD78981668C6D43125E16D0D363CD /* Indicator.swift */,
+				E465923F2F1DCF9B45E771C669651781 /* Kingfisher.h */,
+				953B956C9427FFCACA4C62054BE5AE0D /* Kingfisher.swift */,
+				3413894B0722FC8E62CA84E930F170E2 /* KingfisherManager.swift */,
+				108AE95E757869026E5DEBB6EC367963 /* KingfisherOptionsInfo.swift */,
+				C868ECADAABC87358FBB38CA15ED52B0 /* Placeholder.swift */,
+				8AF9BA55AEF0BDC89445B13461802304 /* RequestModifier.swift */,
+				DF8D31F0AFFA860E03CC483BCF729E30 /* Resource.swift */,
+				3CF351C6E77BE831BC7AFE8394A736FA /* String+MD5.swift */,
+				FA72B36E5CAA19801D4D421868C36F72 /* ThreadHelper.swift */,
+				17BCF54BEF9C84B6F2202F4DDB807FE1 /* UIButton+Kingfisher.swift */,
+				254B4C02F822AA19428C52ED8C188698 /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		11700873CA29C87552393EF975980DC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B7DA9445B074F4B2FAFD0E0F060132E /* Pods-FSCycleScrollView_Example */,
+				70F05ED8800731F0E182E6AF1D1B7E2D /* Pods-FSCycleScrollView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		254B4C02F822AA19428C52ED8C188698 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				204AC156AA9AC1E276D329A1066FE9EA /* Info.plist */,
+				C1C6BE7558100865AE7A713BE33B70E0 /* Kingfisher.modulemap */,
+				AA27BE73F24F901758E2A0CCE278B001 /* Kingfisher.xcconfig */,
+				B2748394BEDFBFE1E287C8DD60D4957C /* Kingfisher-dummy.m */,
+				D29FC25261785C4694C46437D0B37A0E /* Kingfisher-prefix.pch */,
+				9F8CB1321D27ABEFFE080DA09E503A35 /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		273BA91464B3666E8AD3E625A294F703 /* FSCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BC851AD47887939921340128BD832C52 /* FSCycleScrollView.swift */,
+				0B5368F0D816051EB3D83DF8294B066A /* Pod */,
+				94102A4FB563D01BAC477620491A6E93 /* Support Files */,
+			);
+			name = FSCycleScrollView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3B7DA9445B074F4B2FAFD0E0F060132E /* Pods-FSCycleScrollView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BA0F335ADA193E8992B3C1FE0FBE116E /* Info.plist */,
+				CCCD8DDD07081308331ACAD1BDA72402 /* Pods-FSCycleScrollView_Example.modulemap */,
+				572E300C632B3AFDCC930498D8F8429C /* Pods-FSCycleScrollView_Example-acknowledgements.markdown */,
+				CB63944D4A5D0A7A1CDA82C9C93CB515 /* Pods-FSCycleScrollView_Example-acknowledgements.plist */,
+				C50F50F42BDF188AE1B54559A829F181 /* Pods-FSCycleScrollView_Example-dummy.m */,
+				70E07B9A857D8F4F0BEAE2A871FB5DAE /* Pods-FSCycleScrollView_Example-frameworks.sh */,
+				22628C924E689593FD590D6A5FD8EC86 /* Pods-FSCycleScrollView_Example-resources.sh */,
+				6407CDA4CC618E2E4FD46E785E4FE4ED /* Pods-FSCycleScrollView_Example-umbrella.h */,
+				80D433A5ED453113EC271E6712EC8369 /* Pods-FSCycleScrollView_Example.debug.xcconfig */,
+				1C8558B6D6F05539134D1304E76C9CEB /* Pods-FSCycleScrollView_Example.release.xcconfig */,
+			);
+			name = "Pods-FSCycleScrollView_Example";
+			path = "Target Support Files/Pods-FSCycleScrollView_Example";
+			sourceTree = "<group>";
+		};
+		3DB2CFB8EDE4633D0DBA99D6936A6260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20AFD036B1BEE01B0B423B0D2A29C752 /* FSPagerView.framework */,
+				1B0CFEA719B84BDEB8DBF3E189413DD8 /* Kingfisher.framework */,
+				5AD45AF364D8B29FB9F8D61619EB3B64 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5517BF670333B0BBA5D23A2E2F4F853C /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				DC408FB8C62D55B64D862788627D0B7A /* FSPageControl.swift */,
+				41C311705B4657311D72B6DE8FC556D3 /* FSPagerCollectionView.swift */,
+				241F66549B9E00A7ADDB959FC9BBAF66 /* FSPagerView.swift */,
+				C7BE89491B742AEF4CDDCB7070C22AB3 /* FSPagerViewCell.swift */,
+				FB90DB1216651EF33B58D4014B08D7DA /* FSPagerViewLayoutAttributes.swift */,
+				AD1E2B5D33F86AE4D571A90C6D793E9C /* FSPageViewLayout.swift */,
+				C3D4AFA08CC1C7027C9ABE41B0F25C98 /* FSPageViewTransformer.swift */,
+				98C49A0AEB403C9F6448F3A76308ADAC /* Support Files */,
+			);
+			name = FSPagerView;
+			path = FSPagerView;
+			sourceTree = "<group>";
+		};
+		5AD45AF364D8B29FB9F8D61619EB3B64 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9051B28B1057C5B49AE08CF659EE0C07 /* CFNetwork.framework */,
+				B5EF677BB428F3AE71720E9245D6559B /* Foundation.framework */,
+				39A65BBB0C79F2FE63AA372428DCF3B2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		70F05ED8800731F0E182E6AF1D1B7E2D /* Pods-FSCycleScrollView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEF980CB7C8A318399084C730484A26 /* Info.plist */,
+				DC47540865B87AC3A000913D011A3B9E /* Pods-FSCycleScrollView_Tests.modulemap */,
+				8AA812398D97C494835D72DF8B5F71B5 /* Pods-FSCycleScrollView_Tests-acknowledgements.markdown */,
+				712FAFA15FC3AAFD25CB094C203565B3 /* Pods-FSCycleScrollView_Tests-acknowledgements.plist */,
+				DA28023B3030B85FAA55B6921637F634 /* Pods-FSCycleScrollView_Tests-dummy.m */,
+				74080E20F13931CAA7B7677DE0232377 /* Pods-FSCycleScrollView_Tests-frameworks.sh */,
+				8DE006B0389889B8E5A6C8C77557F45F /* Pods-FSCycleScrollView_Tests-resources.sh */,
+				EE41B9CBF9F077C35A8999AFCEA4E936 /* Pods-FSCycleScrollView_Tests-umbrella.h */,
+				45F3CF2F94D8CABC84B169766558C1E7 /* Pods-FSCycleScrollView_Tests.debug.xcconfig */,
+				4B87D8AD6F1FF3A52F2B426FD17E5D0F /* Pods-FSCycleScrollView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FSCycleScrollView_Tests";
+			path = "Target Support Files/Pods-FSCycleScrollView_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F5BF68BCD4C88BBB86B50CF1516048E0 /* Development Pods */,
+				3DB2CFB8EDE4633D0DBA99D6936A6260 /* Frameworks */,
+				C7F74BA4EC1104E486766CF71E63295F /* Pods */,
+				A57BCB68C69DDBDBF0B738BCA11621E1 /* Products */,
+				11700873CA29C87552393EF975980DC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94102A4FB563D01BAC477620491A6E93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD681FC7D4BBF46190920398D101D0AB /* FSCycleScrollView.modulemap */,
+				A618332A606225B5E85E415A2BD1C9BD /* FSCycleScrollView.xcconfig */,
+				34D0E7BA70E8F15B85EB93BD0EFD3A10 /* FSCycleScrollView-dummy.m */,
+				A64B8F5A4B6233575145AC8525D18061 /* FSCycleScrollView-prefix.pch */,
+				EE6E0BA68AF945F45B6B714E8099F220 /* FSCycleScrollView-umbrella.h */,
+				D97A814A865F302FC5AFD3631F1E4E99 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FSCycleScrollView";
+			sourceTree = "<group>";
+		};
+		98C49A0AEB403C9F6448F3A76308ADAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F83A74BEDA6C168ACAAC093810E8F643 /* FSPagerView.modulemap */,
+				5B96531ED139FE228FA43B20AE6DB351 /* FSPagerView.xcconfig */,
+				67029479D92355D177BE90CCAFA0F50C /* FSPagerView-dummy.m */,
+				702C79A3D7D69BD81C015A7733C4FFB3 /* FSPagerView-prefix.pch */,
+				F70A4EF957D1899CC752B8E36F72C02F /* FSPagerView-umbrella.h */,
+				56AA430B8780416E9E85596B4037D5E4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSPagerView";
+			sourceTree = "<group>";
+		};
+		A57BCB68C69DDBDBF0B738BCA11621E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E80C79DC03FF814FEA0329098BB6CB /* FSCycleScrollView.framework */,
+				042615A6659E8B02F4521737C8B4D653 /* FSPagerView.framework */,
+				6B708F5FBF433A87A8EFC031A43DAC52 /* Kingfisher.framework */,
+				A9FA130C658974D241BF61B375DA6BE4 /* Pods_FSCycleScrollView_Example.framework */,
+				1BF12E1DCF4E4C4EDBB1ABAB630CE75D /* Pods_FSCycleScrollView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F74BA4EC1104E486766CF71E63295F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5517BF670333B0BBA5D23A2E2F4F853C /* FSPagerView */,
+				0C66B99A0DA8FEF396D5274B19A6E946 /* Kingfisher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5BF68BCD4C88BBB86B50CF1516048E0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				273BA91464B3666E8AD3E625A294F703 /* FSCycleScrollView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E63CEAAA77B97255FE8D5BFE8CFAD5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E100C9935A3C15E1C76AA349C0E58E /* Kingfisher-umbrella.h in Headers */,
+				6E6227C0F8C8525ABFE1E1797A3B4FFE /* Kingfisher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCEE74191818418D5048F0D79904B7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF6AF26B59077A830559CB620C3906D /* Pods-FSCycleScrollView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89BA7E42077BD4A2942F81A78F739E24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F1A9BE95DC277CD0A654FB25F70E59 /* Pods-FSCycleScrollView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C296D61A217047BC64F44CA49F0AEB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D51B32B727C7883FB45FAFA794FAFF /* FSCycleScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0DB717193525E538D0708DA202692C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A60A4EED8E54C7F7CF50CA02EF9C25 /* FSPagerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		265ED0E1F7768BF4E80765EE4CF7E12D /* Pods-FSCycleScrollView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC7B3C82DEF59E76C5272288859F073 /* Build configuration list for PBXNativeTarget "Pods-FSCycleScrollView_Example" */;
+			buildPhases = (
+				87CE7153A09D5052E4DDEB6A6B2656E8 /* Sources */,
+				A695AA7F8AA5C264705F0EA31926795E /* Frameworks */,
+				3FCEE74191818418D5048F0D79904B7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E9C4F0D5A0D7B38A39A11176F1B146 /* PBXTargetDependency */,
+				AEBFB59DD068BD3B9337714E36E5245D /* PBXTargetDependency */,
+				2BE012A860E5AA307A2928D7FE150C34 /* PBXTargetDependency */,
+			);
+			name = "Pods-FSCycleScrollView_Example";
+			productName = "Pods-FSCycleScrollView_Example";
+			productReference = A9FA130C658974D241BF61B375DA6BE4 /* Pods_FSCycleScrollView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69A39ADE2095194480DB1AA0305E9BAB /* FSPagerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B28E7B1B9AAEC873290820E83F514BE /* Build configuration list for PBXNativeTarget "FSPagerView" */;
+			buildPhases = (
+				7BBD4B6424B86B6578ACDED2B7D7DCD7 /* Sources */,
+				F82D33785A861797275B7073464271B3 /* Frameworks */,
+				EE0DB717193525E538D0708DA202692C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSPagerView;
+			productName = FSPagerView;
+			productReference = 042615A6659E8B02F4521737C8B4D653 /* FSPagerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		853158B761F0D4DB31AF3A005EE26C57 /* Pods-FSCycleScrollView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6A15A0AA3D04811975833F20BB2C23 /* Build configuration list for PBXNativeTarget "Pods-FSCycleScrollView_Tests" */;
+			buildPhases = (
+				86BB2EC3443C4FDF288D5A9236892F20 /* Sources */,
+				9DABFE02633A5A0E9C107A5A2F606C9B /* Frameworks */,
+				89BA7E42077BD4A2942F81A78F739E24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D7E98B018EEAFA934D59D0EF2FA8B60 /* PBXTargetDependency */,
+			);
+			name = "Pods-FSCycleScrollView_Tests";
+			productName = "Pods-FSCycleScrollView_Tests";
+			productReference = 1BF12E1DCF4E4C4EDBB1ABAB630CE75D /* Pods_FSCycleScrollView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F81FD81737E05BE15EFE3514290F63A /* FSCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E955C6D5791A95D0A070DC55A2E61E9 /* Build configuration list for PBXNativeTarget "FSCycleScrollView" */;
+			buildPhases = (
+				02C2E126182DE71C321E1FC13EFEEA33 /* Sources */,
+				21CF0C3DAB34013F1E27AEB8A5A416C2 /* Frameworks */,
+				8C296D61A217047BC64F44CA49F0AEB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				451C041BF6D3BE88B21698C9D22D6A1B /* PBXTargetDependency */,
+				398BBDDD6241BE1582AF65AF78F1EC66 /* PBXTargetDependency */,
+			);
+			name = FSCycleScrollView;
+			productName = FSCycleScrollView;
+			productReference = 12E80C79DC03FF814FEA0329098BB6CB /* FSCycleScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAE571C610F4E202F731CA5718E57133 /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81380274D2BC585D17FF2AF7D9C682C /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				794B23696B43F8469F09E1C6BBA81C6E /* Sources */,
+				819297328984C09F6E074A0A8DAD57B7 /* Frameworks */,
+				2E63CEAAA77B97255FE8D5BFE8CFAD5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = 6B708F5FBF433A87A8EFC031A43DAC52 /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A57BCB68C69DDBDBF0B738BCA11621E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F81FD81737E05BE15EFE3514290F63A /* FSCycleScrollView */,
+				69A39ADE2095194480DB1AA0305E9BAB /* FSPagerView */,
+				BAE571C610F4E202F731CA5718E57133 /* Kingfisher */,
+				265ED0E1F7768BF4E80765EE4CF7E12D /* Pods-FSCycleScrollView_Example */,
+				853158B761F0D4DB31AF3A005EE26C57 /* Pods-FSCycleScrollView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C2E126182DE71C321E1FC13EFEEA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8256903F8F3043D3775487BF2B5E7C /* FSCycleScrollView-dummy.m in Sources */,
+				CA4E71CBA48894D5CC7709FF45CA6655 /* FSCycleScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794B23696B43F8469F09E1C6BBA81C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2991A5DA80F037E6EFF30C763684DA /* AnimatedImageView.swift in Sources */,
+				54BC5505A680B80CABB9E14E429AB5DB /* Box.swift in Sources */,
+				1AE87B4B3E3F696B5305536171726D3A /* CacheSerializer.swift in Sources */,
+				33B325A4718316AD0B022CC4D8B893BF /* Filter.swift in Sources */,
+				0FF3911F1E5461B50C9B70CF8CCF9380 /* FormatIndicatedCacheSerializer.swift in Sources */,
+				3AB3A56E1A5C9DA80A41638EF3ACA76E /* Image.swift in Sources */,
+				BDC15FE323F728D5ACCBB6801CAABE84 /* ImageCache.swift in Sources */,
+				E2BEB56C3D2F65DF635D6D8C94145A90 /* ImageDownloader.swift in Sources */,
+				2ABC94E99F1D7D7033AC2D2DBEFC3FF7 /* ImageModifier.swift in Sources */,
+				F9F2CADC677C6386BFDFA26A732A2BA3 /* ImagePrefetcher.swift in Sources */,
+				0F317DAF555DE8B9D39F2D15B9742392 /* ImageProcessor.swift in Sources */,
+				58BC53EFA5972E8B9D8E59673358E85B /* ImageTransition.swift in Sources */,
+				F29A4CC708577977BA20174C6530DE1E /* ImageView+Kingfisher.swift in Sources */,
+				C1FC2A201D702DB2FBDA1CFEF7FE0C9A /* Indicator.swift in Sources */,
+				100E2A8DF9D538C0CB26AD28D90F6CC1 /* Kingfisher-dummy.m in Sources */,
+				FBE458B52745A1400E223F03205E43BF /* Kingfisher.swift in Sources */,
+				D3025B492A6B2859187BFF91DB19F10D /* KingfisherManager.swift in Sources */,
+				644AE9CB5A3581205CE51627D8AD9248 /* KingfisherOptionsInfo.swift in Sources */,
+				C3ED0EAE08E13DD3BE2C29D4EEF01798 /* Placeholder.swift in Sources */,
+				A29D25DC316D435AA68B41197DACA784 /* RequestModifier.swift in Sources */,
+				0744ABDC51E9F9A392E9611E73AF4491 /* Resource.swift in Sources */,
+				C9DA3978439EB03E0CEDC26E3112B16F /* String+MD5.swift in Sources */,
+				BD66B45146F8BB0B57C1555B2C7906DE /* ThreadHelper.swift in Sources */,
+				3CB978035656005190E5E8B976DC8150 /* UIButton+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBD4B6424B86B6578ACDED2B7D7DCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB67D381405FB633D38E5058BFCDA9D2 /* FSPageControl.swift in Sources */,
+				533FCBC4C3F37C338142602C702BB3CF /* FSPagerCollectionView.swift in Sources */,
+				C9AB3D39C5320C4D99019ED5E5C4828B /* FSPagerView-dummy.m in Sources */,
+				602A3FCBD1D10145789682C869E7C02E /* FSPagerView.swift in Sources */,
+				8E98FE623AB706EBD676DD9B360EA53B /* FSPagerViewCell.swift in Sources */,
+				DF1DF73F37F413C4AF4BE7D7DE27C86B /* FSPagerViewLayoutAttributes.swift in Sources */,
+				35CFD388D17931611160C653A43A61E9 /* FSPageViewLayout.swift in Sources */,
+				62AC1E327C4ADB69A6F92429B908CF5C /* FSPageViewTransformer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BB2EC3443C4FDF288D5A9236892F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75C9F55A04D0E0FF095A4200FF692C8 /* Pods-FSCycleScrollView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CE7153A09D5052E4DDEB6A6B2656E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE5CBFA93ABAAB8E95A8C82E27F0E51 /* Pods-FSCycleScrollView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE012A860E5AA307A2928D7FE150C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = BAE571C610F4E202F731CA5718E57133 /* Kingfisher */;
+			targetProxy = DC4D2E00E41B05B19B4AF14FC1B5BEF3 /* PBXContainerItemProxy */;
+		};
+		398BBDDD6241BE1582AF65AF78F1EC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = BAE571C610F4E202F731CA5718E57133 /* Kingfisher */;
+			targetProxy = 33C003A88E0C8F0B45BDD047103B7F03 /* PBXContainerItemProxy */;
+		};
+		451C041BF6D3BE88B21698C9D22D6A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSPagerView;
+			target = 69A39ADE2095194480DB1AA0305E9BAB /* FSPagerView */;
+			targetProxy = 0F62D72018AAD4348EDCBC0C40751C0C /* PBXContainerItemProxy */;
+		};
+		5D7E98B018EEAFA934D59D0EF2FA8B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FSCycleScrollView_Example";
+			target = 265ED0E1F7768BF4E80765EE4CF7E12D /* Pods-FSCycleScrollView_Example */;
+			targetProxy = F84332821A1B38AB39C6020F93AF41AD /* PBXContainerItemProxy */;
+		};
+		82E9C4F0D5A0D7B38A39A11176F1B146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCycleScrollView;
+			target = 8F81FD81737E05BE15EFE3514290F63A /* FSCycleScrollView */;
+			targetProxy = 3DC4514631E7961213FB7AED0A45E9AE /* PBXContainerItemProxy */;
+		};
+		AEBFB59DD068BD3B9337714E36E5245D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSPagerView;
+			target = 69A39ADE2095194480DB1AA0305E9BAB /* FSPagerView */;
+			targetProxy = DA77CB9BBB868DF6F5BCC4176414B7B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1633290EA8A3B34800B1458FDC16F0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B87D8AD6F1FF3A52F2B426FD17E5D0F /* Pods-FSCycleScrollView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSCycleScrollView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSCycleScrollView_Tests/Pods-FSCycleScrollView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17A051BBCB96E1F90A26881E729094E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B96531ED139FE228FA43B20AE6DB351 /* FSPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPagerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
+				PRODUCT_MODULE_NAME = FSPagerView;
+				PRODUCT_NAME = FSPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27789E6DE84D51305F33E06AF001353C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A618332A606225B5E85E415A2BD1C9BD /* FSCycleScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCycleScrollView/FSCycleScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCycleScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCycleScrollView/FSCycleScrollView.modulemap";
+				PRODUCT_MODULE_NAME = FSCycleScrollView;
+				PRODUCT_NAME = FSCycleScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38A42C431EA18F812EC592726924EEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA27BE73F24F901758E2A0CCE278B001 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C5D8B51481FB209865F166D6D96CA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B96531ED139FE228FA43B20AE6DB351 /* FSPagerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPagerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSPagerView/FSPagerView.modulemap";
+				PRODUCT_MODULE_NAME = FSPagerView;
+				PRODUCT_NAME = FSPagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75DAF763511408080989A5BD7164ACFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F3CF2F94D8CABC84B169766558C1E7 /* Pods-FSCycleScrollView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSCycleScrollView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSCycleScrollView_Tests/Pods-FSCycleScrollView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		895B37CBB18DB8FF68AAE01954F776BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D433A5ED453113EC271E6712EC8369 /* Pods-FSCycleScrollView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSCycleScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSCycleScrollView_Example/Pods-FSCycleScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F7078888C82E82520C0FA182963AF28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA27BE73F24F901758E2A0CCE278B001 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CA29047AD8029C2FEDB57D8345F7F6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8558B6D6F05539134D1304E76C9CEB /* Pods-FSCycleScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSCycleScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSCycleScrollView_Example/Pods-FSCycleScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D47D6D6304E0755CFB2995342E0859E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A618332A606225B5E85E415A2BD1C9BD /* FSCycleScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCycleScrollView/FSCycleScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCycleScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCycleScrollView/FSCycleScrollView.modulemap";
+				PRODUCT_MODULE_NAME = FSCycleScrollView;
+				PRODUCT_NAME = FSCycleScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B28E7B1B9AAEC873290820E83F514BE /* Build configuration list for PBXNativeTarget "FSPagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A051BBCB96E1F90A26881E729094E6 /* Debug */,
+				4C5D8B51481FB209865F166D6D96CA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E955C6D5791A95D0A070DC55A2E61E9 /* Build configuration list for PBXNativeTarget "FSCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47D6D6304E0755CFB2995342E0859E8 /* Debug */,
+				27789E6DE84D51305F33E06AF001353C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6A15A0AA3D04811975833F20BB2C23 /* Build configuration list for PBXNativeTarget "Pods-FSCycleScrollView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DAF763511408080989A5BD7164ACFB /* Debug */,
+				1633290EA8A3B34800B1458FDC16F0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C81380274D2BC585D17FF2AF7D9C682C /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7078888C82E82520C0FA182963AF28 /* Debug */,
+				38A42C431EA18F812EC592726924EEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC7B3C82DEF59E76C5272288859F073 /* Build configuration list for PBXNativeTarget "Pods-FSCycleScrollView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895B37CBB18DB8FF68AAE01954F776BC /* Debug */,
+				CA29047AD8029C2FEDB57D8345F7F6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

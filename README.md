@@ -25,9 +25,9 @@ pod 'FSCycleScrollView'
 ``` swift
 let cycleScrollView = FSCycleScrollView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 200))
 cycleScrollView.automaticSlidingInterval = 5            // 自动滚动间隔
-cycleScrollView.hidesPageControl = false                // 是否隐藏page control
-cycleScrollView.hidesPageControlForSinglePage = false   // 只有一页的时候隐藏page control
-cycleScrollView.pageControlBottomOffset = 20            // page control距底部距离
+cycleScrollView.hidesPageControl = false                // 是否隐藏 page control
+cycleScrollView.hidesPageControlForSinglePage = false   // 只有一页的时候隐藏 page control
+cycleScrollView.pageControlBottomOffset = 20            // page control 距底部距离
 cycleScrollView.isInfinite = true                       // 是否无限轮播
 cycleScrollView.placeholder = nil                       // 占位图片
 cycleScrollView.dataSourceType = .onlyImage(images: []) // 只显示图片

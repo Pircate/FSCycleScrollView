@@ -61,12 +61,6 @@ open class FSCycleScrollView: UIView {
         }
     }
     
-    open var transformer: FSPagerViewTransformer? {
-        didSet {
-            pagerView.transformer = transformer
-        }
-    }
-    
     open var selectItemAtIndex: (Int) -> Void = { _ in }
     
     /// Title label style
